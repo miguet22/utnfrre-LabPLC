@@ -1,0 +1,70 @@
+#include "beremiz.h"
+#ifndef __POUS_H
+#define __POUS_H
+
+#include "accessor.h"
+#include "iec_std_lib.h"
+
+__DECLARE_ENUMERATED_TYPE(LOGLEVEL,
+  LOGLEVEL__CRITICAL,
+  LOGLEVEL__WARNING,
+  LOGLEVEL__INFO,
+  LOGLEVEL__DEBUG
+)
+// FUNCTION_BLOCK LOGGER
+// Data part
+typedef struct {
+  // FB Interface - IN, OUT, IN_OUT variables
+  __DECLARE_VAR(BOOL,EN)
+  __DECLARE_VAR(BOOL,ENO)
+  __DECLARE_VAR(BOOL,TRIG)
+  __DECLARE_VAR(STRING,MSG)
+  __DECLARE_VAR(LOGLEVEL,LEVEL)
+
+  // FB private variables - TEMP, private and located variables
+  __DECLARE_VAR(BOOL,TRIG0)
+
+} LOGGER;
+
+void LOGGER_init__(LOGGER *data__, BOOL retain);
+// Code part
+void LOGGER_body__(LOGGER *data__);
+// PROGRAM PROGRAM0
+// Data part
+typedef struct {
+  // PROGRAM Interface - IN, OUT, IN_OUT variables
+
+  // PROGRAM private variables - TEMP, private and located variables
+  __DECLARE_VAR(BOOL,TIMER)
+  __DECLARE_VAR(BOOL,LUZ_1)
+  __DECLARE_VAR(BOOL,LUZ_2)
+  __DECLARE_VAR(BOOL,RESET)
+  __DECLARE_VAR(BOOL,TIMER_CORRIDO)
+  __DECLARE_VAR(BOOL,TIMER_NORM)
+  __DECLARE_VAR(BOOL,PROBAR_NORM)
+  __DECLARE_VAR(BOOL,FALSO)
+  __DECLARE_VAR(BOOL,ACUMULAR)
+  __DECLARE_VAR(BOOL,SAL)
+  __DECLARE_VAR(UINT,SENSOR)
+  __DECLARE_VAR(UINT,ACUM)
+  __DECLARE_VAR(UINT,ACUM2)
+  __DECLARE_VAR(UINT,TOPE_NORMAL)
+  TON TON0;
+  TP TP1;
+  TP TP0;
+  TOF TOF0;
+  __DECLARE_VAR(BOOL,_TMP_ADD30_ENO)
+  __DECLARE_VAR(UINT,_TMP_ADD30_OUT)
+  __DECLARE_VAR(BOOL,_TMP_DIV5_ENO)
+  __DECLARE_VAR(UINT,_TMP_DIV5_OUT)
+  __DECLARE_VAR(BOOL,_TMP_GE45_ENO)
+  __DECLARE_VAR(BOOL,_TMP_GE45_OUT)
+  __DECLARE_VAR(BOOL,_TMP_LT51_ENO)
+  __DECLARE_VAR(BOOL,_TMP_LT51_OUT)
+
+} PROGRAM0;
+
+void PROGRAM0_init__(PROGRAM0 *data__, BOOL retain);
+// Code part
+void PROGRAM0_body__(PROGRAM0 *data__);
+#endif //__POUS_H

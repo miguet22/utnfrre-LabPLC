@@ -113,19 +113,22 @@ void PROGRAM0_init__(PROGRAM0 *data__, BOOL retain) {
   __INIT_VAR(data__->LUZ_2,0,retain)
   __INIT_VAR(data__->RESET,0,retain)
   __INIT_VAR(data__->TIMER_CORRIDO,0,retain)
-  __INIT_VAR(data__->TIMER_NORM,0,retain)
-  __INIT_VAR(data__->PROBAR_NORM,0,retain)
+  __INIT_VAR(data__->TIMER_ALT,0,retain)
+  __INIT_VAR(data__->PROBAR_ALT,0,retain)
+  __INIT_VAR(data__->PROBAR_SUP,0,retain)
   __INIT_VAR(data__->FALSO,0,retain)
   __INIT_VAR(data__->ACUMULAR,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->SAL,0,retain)
   __INIT_VAR(data__->SENSOR,0,retain)
-  __INIT_VAR(data__->ACUM,34000,retain)
+  __INIT_VAR(data__->ACUM,60000,retain)
   __INIT_VAR(data__->ACUM2,0,retain)
   __INIT_VAR(data__->TOPE_NORMAL,0,retain)
   TON_init__(&data__->TON0,retain);
   TP_init__(&data__->TP1,retain);
   TP_init__(&data__->TP0,retain);
   TOF_init__(&data__->TOF0,retain);
+  TON_init__(&data__->TON1,retain);
+  TP_init__(&data__->TP2,retain);
   __INIT_VAR(data__->_TMP_ADD30_ENO,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->_TMP_ADD30_OUT,0,retain)
   __INIT_VAR(data__->_TMP_DIV5_ENO,__BOOL_LITERAL(FALSE),retain)
@@ -143,8 +146,8 @@ void PROGRAM0_body__(PROGRAM0 *data__) {
   __SET_VAR(data__->TON0.,IN,,__GET_VAR(data__->TIMER,));
   __SET_VAR(data__->TON0.,PT,,__time_to_timespec(1, 0, 7, 0, 0, 0));
   TON_body__(&data__->TON0);
-  __SET_VAR(data__->,PROBAR_NORM,,__GET_VAR(data__->TON0.Q,));
-  __SET_VAR(data__->TP1.,IN,,(!(__GET_VAR(data__->TIMER_CORRIDO,)) || __GET_VAR(data__->PROBAR_NORM,)));
+  __SET_VAR(data__->,PROBAR_ALT,,__GET_VAR(data__->TON0.Q,));
+  __SET_VAR(data__->TP1.,IN,,((!(__GET_VAR(data__->TIMER_CORRIDO,)) || __GET_VAR(data__->PROBAR_ALT,)) || __GET_VAR(data__->PROBAR_SUP,)));
   __SET_VAR(data__->TP1.,PT,,__time_to_timespec(1, 0, 1, 0, 0, 0));
   TP_body__(&data__->TP1);
   __SET_VAR(data__->,ACUMULAR,,__GET_VAR(data__->TP1.Q,));
@@ -170,19 +173,28 @@ void PROGRAM0_body__(PROGRAM0 *data__) {
   TOF_body__(&data__->TOF0);
   __SET_VAR(data__->,TIMER_CORRIDO,,__GET_VAR(data__->TOF0.Q,));
   __SET_VAR(data__->,_TMP_GE45_OUT,,__PROGRAM0_GE__BOOL__UINT3(
-    (BOOL)__GET_VAR(data__->PROBAR_NORM,),
+    (BOOL)__GET_VAR(data__->PROBAR_ALT,),
     (UINT)2,
     (UINT)__GET_VAR(data__->ACUM,),
     (UINT)__GET_VAR(data__->TOPE_NORMAL,),
     data__));
-  __SET_VAR(data__->,TIMER_NORM,,__GET_VAR(data__->_TMP_GE45_OUT,));
+  __SET_VAR(data__->,TIMER_ALT,,__GET_VAR(data__->_TMP_GE45_OUT,));
   __SET_VAR(data__->,_TMP_LT51_OUT,,__PROGRAM0_LT__BOOL__UINT4(
-    (BOOL)__GET_VAR(data__->PROBAR_NORM,),
+    (BOOL)__GET_VAR(data__->PROBAR_ALT,),
     (UINT)2,
     (UINT)__GET_VAR(data__->ACUM,),
     (UINT)__GET_VAR(data__->TOPE_NORMAL,),
     data__));
   __SET_VAR(data__->,TIMER,,!(__GET_VAR(data__->_TMP_LT51_OUT,)));
+  __SET_VAR(data__->TON1.,IN,,__GET_VAR(data__->TIMER_ALT,));
+  __SET_VAR(data__->TON1.,PT,,__time_to_timespec(1, 0, 7, 0, 0, 0));
+  TON_body__(&data__->TON1);
+  __SET_VAR(data__->,PROBAR_SUP,,__GET_VAR(data__->TON1.Q,));
+  __SET_VAR(data__->TP2.,IN,,__GET_VAR(data__->TIMER_ALT,));
+  __SET_VAR(data__->TP2.,PT,,__time_to_timespec(1, 0, 7, 0, 0, 0));
+  TP_body__(&data__->TP2);
+  __SET_VAR(data__->,PROBAR_ALT,,__GET_VAR(data__->TP2.Q,));
+  __SET_VAR(data__->,ACUMULAR,,__GET_VAR(data__->TP2.Q,));
 
   goto __end;
 

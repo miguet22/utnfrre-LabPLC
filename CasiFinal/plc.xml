@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0201" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ns1="http://www.plcopen.org/xml/tc6_0201">
   <fileHeader companyName="Desconocido" productName="Sin nombre" productVersion="1" creationDateTime="2024-10-28T23:47:34"/>
-  <contentHeader name="Sin nombre" modificationDateTime="2024-11-01T21:02:34">
+  <contentHeader name="Sin nombre" modificationDateTime="2024-11-01T21:09:56">
     <coordinateInfo>
       <fbd>
         <scaling x="10" y="10"/>
@@ -281,42 +281,42 @@
               </connectionPointOut>
             </leftPowerRail>
             <rightPowerRail localId="2" width="10" height="1340">
-              <position x="1680" y="80"/>
+              <position x="1380" y="90"/>
               <connectionPointIn>
                 <relPosition x="0" y="20"/>
                 <connection refLocalId="4">
-                  <position x="1680" y="100"/>
-                  <position x="1345" y="100"/>
+                  <position x="1380" y="110"/>
+                  <position x="1345" y="110"/>
                   <position x="1345" y="90"/>
                   <position x="1011" y="90"/>
                 </connection>
                 <connection refLocalId="143">
-                  <position x="1680" y="100"/>
-                  <position x="1052" y="100"/>
+                  <position x="1380" y="110"/>
+                  <position x="1052" y="110"/>
                   <position x="1052" y="120"/>
                   <position x="421" y="120"/>
                 </connection>
                 <connection refLocalId="144">
-                  <position x="1680" y="100"/>
-                  <position x="1110" y="100"/>
+                  <position x="1380" y="110"/>
+                  <position x="1110" y="110"/>
                   <position x="1110" y="150"/>
                   <position x="481" y="150"/>
                 </connection>
                 <connection refLocalId="149">
-                  <position x="1680" y="100"/>
-                  <position x="1230" y="100"/>
+                  <position x="1380" y="110"/>
+                  <position x="1230" y="110"/>
                   <position x="1230" y="200"/>
                   <position x="421" y="200"/>
                 </connection>
                 <connection refLocalId="151">
-                  <position x="1680" y="100"/>
-                  <position x="1300" y="100"/>
+                  <position x="1380" y="110"/>
+                  <position x="1300" y="110"/>
                   <position x="1300" y="240"/>
                   <position x="531" y="240"/>
                 </connection>
                 <connection refLocalId="169">
-                  <position x="1680" y="100"/>
-                  <position x="1169" y="100"/>
+                  <position x="1380" y="110"/>
+                  <position x="1169" y="110"/>
                   <position x="1169" y="50"/>
                   <position x="659" y="50"/>
                 </connection>
@@ -324,8 +324,8 @@
               <connectionPointIn>
                 <relPosition x="0" y="280"/>
                 <connection refLocalId="31">
-                  <position x="1680" y="360"/>
-                  <position x="1191" y="360"/>
+                  <position x="1380" y="370"/>
+                  <position x="1191" y="370"/>
                   <position x="1191" y="340"/>
                   <position x="1181" y="340"/>
                 </connection>
@@ -333,14 +333,14 @@
               <connectionPointIn>
                 <relPosition x="0" y="540"/>
                 <connection refLocalId="115">
-                  <position x="1680" y="620"/>
-                  <position x="1515" y="620"/>
-                  <position x="1515" y="580"/>
+                  <position x="1380" y="630"/>
+                  <position x="1370" y="630"/>
+                  <position x="1370" y="580"/>
                   <position x="1241" y="580"/>
                 </connection>
                 <connection refLocalId="171">
-                  <position x="1680" y="620"/>
-                  <position x="1200" y="620"/>
+                  <position x="1380" y="630"/>
+                  <position x="1200" y="630"/>
                   <position x="1200" y="790"/>
                   <position x="769" y="790"/>
                 </connection>
@@ -348,44 +348,42 @@
               <connectionPointIn>
                 <relPosition x="0" y="800"/>
                 <connection refLocalId="145">
-                  <position x="1680" y="880"/>
-                  <position x="1569" y="880"/>
-                  <position x="1569" y="870"/>
-                  <position x="1459" y="870"/>
+                  <position x="1380" y="890"/>
+                  <position x="1370" y="890"/>
+                  <position x="1370" y="900"/>
+                  <position x="1101" y="900"/>
                 </connection>
               </connectionPointIn>
               <connectionPointIn>
                 <relPosition x="0" y="1060"/>
                 <connection refLocalId="146">
-                  <position x="1680" y="1140"/>
-                  <position x="1624" y="1140"/>
-                  <position x="1624" y="1150"/>
-                  <position x="1569" y="1150"/>
+                  <position x="1380" y="1150"/>
+                  <position x="1301" y="1150"/>
                 </connection>
               </connectionPointIn>
               <connectionPointIn>
                 <relPosition x="0" y="1320"/>
                 <connection refLocalId="112">
-                  <position x="1680" y="1400"/>
-                  <position x="1670" y="1400"/>
-                  <position x="1670" y="1630"/>
+                  <position x="1380" y="1410"/>
+                  <position x="1370" y="1410"/>
+                  <position x="1370" y="1630"/>
                   <position x="301" y="1630"/>
                 </connection>
                 <connection refLocalId="147">
-                  <position x="1680" y="1400"/>
-                  <position x="1479" y="1400"/>
-                  <position x="1479" y="1440"/>
+                  <position x="1380" y="1410"/>
+                  <position x="1370" y="1410"/>
+                  <position x="1370" y="1440"/>
                   <position x="1279" y="1440"/>
                 </connection>
                 <connection refLocalId="179">
-                  <position x="1680" y="1400"/>
-                  <position x="1334" y="1400"/>
+                  <position x="1380" y="1410"/>
+                  <position x="1334" y="1410"/>
                   <position x="1334" y="1730"/>
                   <position x="1011" y="1730"/>
                 </connection>
                 <connection refLocalId="182">
-                  <position x="1680" y="1400"/>
-                  <position x="1159" y="1400"/>
+                  <position x="1380" y="1410"/>
+                  <position x="1159" y="1410"/>
                   <position x="1159" y="1700"/>
                   <position x="639" y="1700"/>
                 </connection>
@@ -1203,15 +1201,13 @@
               <variable>verificar</variable>
             </coil>
             <block localId="118" typeName="TOF" instanceName="TOF0" width="60" height="80">
-              <position x="1260" y="1110"/>
+              <position x="1030" y="1120"/>
               <inputVariables>
                 <variable formalParameter="IN">
                   <connectionPointIn>
                     <relPosition x="0" y="30"/>
                     <connection refLocalId="104" formalParameter="OUT">
-                      <position x="1260" y="1140"/>
-                      <position x="1165" y="1140"/>
-                      <position x="1165" y="1150"/>
+                      <position x="1030" y="1150"/>
                       <position x="940" y="1150"/>
                     </connection>
                   </connectionPointIn>
@@ -1220,10 +1216,10 @@
                   <connectionPointIn>
                     <relPosition x="0" y="70"/>
                     <connection refLocalId="119">
-                      <position x="1260" y="1180"/>
-                      <position x="1250" y="1180"/>
-                      <position x="1250" y="1200"/>
-                      <position x="1230" y="1200"/>
+                      <position x="1030" y="1190"/>
+                      <position x="1020" y="1190"/>
+                      <position x="1020" y="1220"/>
+                      <position x="990" y="1220"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -1243,22 +1239,22 @@
               </outputVariables>
             </block>
             <inVariable localId="119" width="80" height="30" negated="false">
-              <position x="1150" y="1180"/>
+              <position x="910" y="1200"/>
               <connectionPointOut>
                 <relPosition x="80" y="20"/>
               </connectionPointOut>
               <expression>T#4240ms</expression>
             </inVariable>
             <block localId="13" typeName="TOF" instanceName="TOF2" width="60" height="80" executionOrderId="0">
-              <position x="1220" y="780"/>
+              <position x="900" y="860"/>
               <inputVariables>
                 <variable formalParameter="IN">
                   <connectionPointIn>
                     <relPosition x="0" y="40"/>
                     <connection refLocalId="100" formalParameter="OUT">
-                      <position x="1220" y="820"/>
-                      <position x="955" y="820"/>
-                      <position x="955" y="1050"/>
+                      <position x="900" y="900"/>
+                      <position x="890" y="900"/>
+                      <position x="890" y="1050"/>
                       <position x="860" y="1050"/>
                     </connection>
                   </connectionPointIn>
@@ -1267,10 +1263,8 @@
                   <connectionPointIn>
                     <relPosition x="0" y="60"/>
                     <connection refLocalId="14">
-                      <position x="1220" y="840"/>
-                      <position x="1200" y="840"/>
-                      <position x="1200" y="890"/>
-                      <position x="1150" y="890"/>
+                      <position x="900" y="920"/>
+                      <position x="840" y="920"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -1290,7 +1284,7 @@
               </outputVariables>
             </block>
             <inVariable localId="14" width="80" height="30" negated="false" executionOrderId="0">
-              <position x="1070" y="880"/>
+              <position x="760" y="900"/>
               <connectionPointOut>
                 <relPosition x="80" y="20"/>
               </connectionPointOut>
@@ -1508,14 +1502,12 @@
               <variable>luz2</variable>
             </coil>
             <coil localId="145" negated="false" width="21" height="20">
-              <position x="1438" y="860"/>
+              <position x="1080" y="890"/>
               <connectionPointIn>
                 <relPosition x="0" y="10"/>
                 <connection refLocalId="13" formalParameter="Q">
-                  <position x="1438" y="870"/>
-                  <position x="1359" y="870"/>
-                  <position x="1359" y="820"/>
-                  <position x="1280" y="820"/>
+                  <position x="1080" y="900"/>
+                  <position x="960" y="900"/>
                 </connection>
               </connectionPointIn>
               <connectionPointOut>
@@ -1524,14 +1516,12 @@
               <variable>alto</variable>
             </coil>
             <coil localId="146" negated="false" width="21" height="20">
-              <position x="1548" y="1140"/>
+              <position x="1280" y="1140"/>
               <connectionPointIn>
                 <relPosition x="0" y="10"/>
                 <connection refLocalId="118" formalParameter="Q">
-                  <position x="1548" y="1150"/>
-                  <position x="1499" y="1150"/>
-                  <position x="1499" y="1140"/>
-                  <position x="1320" y="1140"/>
+                  <position x="1280" y="1150"/>
+                  <position x="1090" y="1150"/>
                 </connection>
               </connectionPointIn>
               <connectionPointOut>
@@ -1619,69 +1609,61 @@
               </connectionPointOut>
               <variable>luz2</variable>
             </coil>
-            <comment localId="152" height="110" width="330">
-              <position x="1290" y="400"/>
-              <content>
-                <xhtml:p><![CDATA[Analogico 28
-Luz1 20
-Luz2 21]]></xhtml:p>
-              </content>
-            </comment>
             <outVariable localId="163" width="100" height="30" negated="false">
-              <position x="1580" y="1050"/>
+              <position x="1240" y="1070"/>
               <connectionPointIn>
                 <relPosition x="0" y="10"/>
                 <connection refLocalId="21" formalParameter="OUT">
-                  <position x="1580" y="1060"/>
-                  <position x="1570" y="1060"/>
-                  <position x="1570" y="1035"/>
-                  <position x="1580" y="1035"/>
-                  <position x="1580" y="1000"/>
-                  <position x="1570" y="1000"/>
+                  <position x="1240" y="1080"/>
+                  <position x="1230" y="1080"/>
+                  <position x="1230" y="1045"/>
+                  <position x="1360" y="1045"/>
+                  <position x="1360" y="1020"/>
+                  <position x="1350" y="1020"/>
                 </connection>
               </connectionPointIn>
               <expression>acumulador</expression>
             </outVariable>
             <outVariable localId="23" width="100" height="30" negated="false" executionOrderId="0">
-              <position x="1560" y="1300"/>
+              <position x="1250" y="1350"/>
               <connectionPointIn>
                 <relPosition x="0" y="20"/>
                 <connection refLocalId="24" formalParameter="OUT">
-                  <position x="1560" y="1320"/>
-                  <position x="1550" y="1320"/>
-                  <position x="1550" y="1265"/>
-                  <position x="1610" y="1265"/>
-                  <position x="1610" y="1240"/>
-                  <position x="1600" y="1240"/>
+                  <position x="1250" y="1370"/>
+                  <position x="1240" y="1370"/>
+                  <position x="1240" y="1310"/>
+                  <position x="1350" y="1310"/>
+                  <position x="1350" y="1250"/>
+                  <position x="1340" y="1250"/>
                 </connection>
               </connectionPointIn>
               <expression>acumulador</expression>
             </outVariable>
             <outVariable localId="26" width="100" height="30" negated="false" executionOrderId="0">
-              <position x="1500" y="1590"/>
+              <position x="1180" y="1600"/>
               <connectionPointIn>
                 <relPosition x="0" y="10"/>
                 <connection refLocalId="37" formalParameter="OUT">
-                  <position x="1500" y="1600"/>
-                  <position x="1490" y="1600"/>
-                  <position x="1490" y="1570"/>
-                  <position x="1560" y="1570"/>
-                  <position x="1560" y="1540"/>
-                  <position x="1550" y="1540"/>
+                  <position x="1180" y="1610"/>
+                  <position x="1170" y="1610"/>
+                  <position x="1170" y="1575"/>
+                  <position x="1270" y="1575"/>
+                  <position x="1270" y="1540"/>
+                  <position x="1260" y="1540"/>
                 </connection>
               </connectionPointIn>
               <expression>acumulador</expression>
             </outVariable>
             <block localId="27" typeName="TON" instanceName="TON2" width="50" height="60" executionOrderId="0">
-              <position x="1330" y="910"/>
+              <position x="1120" y="940"/>
               <inputVariables>
                 <variable formalParameter="IN">
                   <connectionPointIn>
                     <relPosition x="0" y="30"/>
                     <connection refLocalId="100" formalParameter="OUT">
-                      <position x="1330" y="940"/>
-                      <position x="1116" y="940"/>
-                      <position x="1116" y="1050"/>
+                      <position x="1120" y="970"/>
+                      <position x="1000" y="970"/>
+                      <position x="1000" y="1050"/>
                       <position x="860" y="1050"/>
                     </connection>
                   </connectionPointIn>
@@ -1690,10 +1672,10 @@ Luz2 21]]></xhtml:p>
                   <connectionPointIn>
                     <relPosition x="0" y="50"/>
                     <connection refLocalId="28">
-                      <position x="1330" y="960"/>
-                      <position x="1300" y="960"/>
-                      <position x="1300" y="970"/>
-                      <position x="1270" y="970"/>
+                      <position x="1120" y="990"/>
+                      <position x="1065" y="990"/>
+                      <position x="1065" y="1090"/>
+                      <position x="1010" y="1090"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -1713,22 +1695,22 @@ Luz2 21]]></xhtml:p>
               </outputVariables>
             </block>
             <inVariable localId="28" width="80" height="30" negated="false" executionOrderId="0">
-              <position x="1190" y="960"/>
+              <position x="930" y="1070"/>
               <connectionPointOut>
-                <relPosition x="80" y="10"/>
+                <relPosition x="80" y="20"/>
               </connectionPointOut>
               <expression>T#1980ms</expression>
             </inVariable>
             <block localId="33" typeName="TON" instanceName="TON0" width="50" height="60" executionOrderId="0">
-              <position x="1360" y="1230"/>
+              <position x="1070" y="1220"/>
               <inputVariables>
                 <variable formalParameter="IN">
                   <connectionPointIn>
                     <relPosition x="0" y="30"/>
                     <connection refLocalId="104" formalParameter="OUT">
-                      <position x="1360" y="1260"/>
-                      <position x="1150" y="1260"/>
-                      <position x="1150" y="1150"/>
+                      <position x="1070" y="1250"/>
+                      <position x="970" y="1250"/>
+                      <position x="970" y="1150"/>
                       <position x="940" y="1150"/>
                     </connection>
                   </connectionPointIn>
@@ -1737,10 +1719,10 @@ Luz2 21]]></xhtml:p>
                   <connectionPointIn>
                     <relPosition x="0" y="50"/>
                     <connection refLocalId="34">
-                      <position x="1360" y="1280"/>
-                      <position x="1345" y="1280"/>
-                      <position x="1345" y="1300"/>
-                      <position x="1330" y="1300"/>
+                      <position x="1070" y="1270"/>
+                      <position x="1045" y="1270"/>
+                      <position x="1045" y="1300"/>
+                      <position x="1020" y="1300"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -1760,20 +1742,20 @@ Luz2 21]]></xhtml:p>
               </outputVariables>
             </block>
             <inVariable localId="34" width="80" height="30" negated="false" executionOrderId="0">
-              <position x="1250" y="1290"/>
+              <position x="940" y="1290"/>
               <connectionPointOut>
                 <relPosition x="80" y="10"/>
               </connectionPointOut>
               <expression>T#1980ms</expression>
             </inVariable>
             <block localId="35" typeName="TON" instanceName="TON1" width="50" height="60" executionOrderId="0">
-              <position x="1270" y="1470"/>
+              <position x="980" y="1470"/>
               <inputVariables>
                 <variable formalParameter="IN">
                   <connectionPointIn>
                     <relPosition x="0" y="30"/>
                     <connection refLocalId="17" formalParameter="OUT">
-                      <position x="1270" y="1500"/>
+                      <position x="980" y="1500"/>
                       <position x="600" y="1500"/>
                       <position x="600" y="1340"/>
                       <position x="500" y="1340"/>
@@ -1784,10 +1766,10 @@ Luz2 21]]></xhtml:p>
                   <connectionPointIn>
                     <relPosition x="0" y="50"/>
                     <connection refLocalId="36">
-                      <position x="1270" y="1520"/>
-                      <position x="1240" y="1520"/>
-                      <position x="1240" y="1580"/>
-                      <position x="1210" y="1580"/>
+                      <position x="980" y="1520"/>
+                      <position x="950" y="1520"/>
+                      <position x="950" y="1580"/>
+                      <position x="920" y="1580"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -1807,7 +1789,7 @@ Luz2 21]]></xhtml:p>
               </outputVariables>
             </block>
             <inVariable localId="36" width="80" height="30" negated="false" executionOrderId="0">
-              <position x="1130" y="1570"/>
+              <position x="840" y="1570"/>
               <connectionPointOut>
                 <relPosition x="80" y="10"/>
               </connectionPointOut>
@@ -1958,16 +1940,16 @@ Luz2 21]]></xhtml:p>
               <variable>timer2</variable>
             </contact>
             <block localId="37" typeName="MOVE" width="120" height="60" executionOrderId="0">
-              <position x="1430" y="1490"/>
+              <position x="1140" y="1490"/>
               <inputVariables>
                 <variable formalParameter="EN">
                   <connectionPointIn>
                     <relPosition x="0" y="30"/>
                     <connection refLocalId="35" formalParameter="Q">
-                      <position x="1430" y="1520"/>
-                      <position x="1375" y="1520"/>
-                      <position x="1375" y="1500"/>
-                      <position x="1320" y="1500"/>
+                      <position x="1140" y="1520"/>
+                      <position x="1085" y="1520"/>
+                      <position x="1085" y="1500"/>
+                      <position x="1030" y="1500"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -1975,12 +1957,12 @@ Luz2 21]]></xhtml:p>
                   <connectionPointIn>
                     <relPosition x="0" y="50"/>
                     <connection refLocalId="184">
-                      <position x="1430" y="1540"/>
-                      <position x="1420" y="1540"/>
-                      <position x="1420" y="1575"/>
-                      <position x="1430" y="1575"/>
-                      <position x="1430" y="1610"/>
-                      <position x="1420" y="1610"/>
+                      <position x="1140" y="1540"/>
+                      <position x="1130" y="1540"/>
+                      <position x="1130" y="1575"/>
+                      <position x="1140" y="1575"/>
+                      <position x="1140" y="1600"/>
+                      <position x="1130" y="1600"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -2000,16 +1982,16 @@ Luz2 21]]></xhtml:p>
               </outputVariables>
             </block>
             <block localId="24" typeName="MOVE" width="120" height="60" executionOrderId="0">
-              <position x="1480" y="1190"/>
+              <position x="1220" y="1200"/>
               <inputVariables>
                 <variable formalParameter="EN">
                   <connectionPointIn>
                     <relPosition x="0" y="30"/>
                     <connection refLocalId="33" formalParameter="Q">
-                      <position x="1480" y="1220"/>
-                      <position x="1440" y="1220"/>
-                      <position x="1440" y="1260"/>
-                      <position x="1410" y="1260"/>
+                      <position x="1220" y="1230"/>
+                      <position x="1170" y="1230"/>
+                      <position x="1170" y="1250"/>
+                      <position x="1120" y="1250"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -2017,12 +1999,10 @@ Luz2 21]]></xhtml:p>
                   <connectionPointIn>
                     <relPosition x="0" y="50"/>
                     <connection refLocalId="44">
-                      <position x="1480" y="1240"/>
-                      <position x="1470" y="1240"/>
-                      <position x="1470" y="1300"/>
-                      <position x="1490" y="1300"/>
-                      <position x="1490" y="1360"/>
-                      <position x="1470" y="1360"/>
+                      <position x="1220" y="1250"/>
+                      <position x="1190" y="1250"/>
+                      <position x="1190" y="1340"/>
+                      <position x="1120" y="1340"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -2042,16 +2022,16 @@ Luz2 21]]></xhtml:p>
               </outputVariables>
             </block>
             <block localId="21" typeName="MOVE" width="120" height="60" executionOrderId="0">
-              <position x="1450" y="950"/>
+              <position x="1230" y="970"/>
               <inputVariables>
                 <variable formalParameter="EN">
                   <connectionPointIn>
                     <relPosition x="0" y="30"/>
                     <connection refLocalId="27" formalParameter="Q">
-                      <position x="1450" y="980"/>
-                      <position x="1420" y="980"/>
-                      <position x="1420" y="940"/>
-                      <position x="1380" y="940"/>
+                      <position x="1230" y="1000"/>
+                      <position x="1210" y="1000"/>
+                      <position x="1210" y="970"/>
+                      <position x="1170" y="970"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -2059,10 +2039,10 @@ Luz2 21]]></xhtml:p>
                   <connectionPointIn>
                     <relPosition x="0" y="50"/>
                     <connection refLocalId="185">
-                      <position x="1450" y="1000"/>
-                      <position x="1415" y="1000"/>
-                      <position x="1415" y="1050"/>
-                      <position x="1380" y="1050"/>
+                      <position x="1230" y="1020"/>
+                      <position x="1210" y="1020"/>
+                      <position x="1210" y="1050"/>
+                      <position x="1160" y="1050"/>
                     </connection>
                   </connectionPointIn>
                 </variable>
@@ -2367,21 +2347,21 @@ Luz2 21]]></xhtml:p>
               <variable>compara</variable>
             </coil>
             <inVariable localId="44" width="50" height="30" negated="false" executionOrderId="0">
-              <position x="1420" y="1340"/>
+              <position x="1070" y="1320"/>
               <connectionPointOut>
                 <relPosition x="50" y="20"/>
               </connectionPointOut>
               <expression>43000</expression>
             </inVariable>
             <inVariable localId="184" width="50" height="30" negated="false">
-              <position x="1370" y="1590"/>
+              <position x="1080" y="1590"/>
               <connectionPointOut>
                 <relPosition x="50" y="10"/>
               </connectionPointOut>
               <expression>40000</expression>
             </inVariable>
             <inVariable localId="185" width="50" height="30" negated="false">
-              <position x="1330" y="1030"/>
+              <position x="1110" y="1040"/>
               <connectionPointOut>
                 <relPosition x="50" y="10"/>
               </connectionPointOut>

@@ -7,7 +7,6 @@ PROGRAM program0
     minimo_alto : UINT := 41900;
     minimo_superior : UINT := 43001;
     acumulador : UDINT := 0;
-    acumulador0 : UDINT := 38000;
     timer : BOOL := 1;
     timer2 : BOOL := 1;
     normal : BOOL := 1;

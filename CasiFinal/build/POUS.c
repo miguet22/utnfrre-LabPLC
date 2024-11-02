@@ -269,7 +269,6 @@ void PROGRAM0_init__(PROGRAM0 *data__, BOOL retain) {
   __INIT_VAR(data__->MINIMO_ALTO,41900,retain)
   __INIT_VAR(data__->MINIMO_SUPERIOR,43001,retain)
   __INIT_VAR(data__->ACUMULADOR,0,retain)
-  __INIT_VAR(data__->ACUMULADOR0,38000,retain)
   __INIT_VAR(data__->TIMER,1,retain)
   __INIT_VAR(data__->TIMER2,1,retain)
   __INIT_VAR(data__->NORMAL,1,retain)

@@ -1,3 +1,26 @@
+TYPE
+  LOGLEVEL : (CRITICAL, WARNING, INFO, DEBUG) := INFO;
+END_TYPE
+
+FUNCTION_BLOCK LOGGER
+  VAR_INPUT
+    TRIG : BOOL;
+    MSG : STRING;
+    LEVEL : LOGLEVEL := INFO;
+  END_VAR
+  VAR
+    TRIG0 : BOOL;
+  END_VAR
+
+  IF TRIG AND NOT TRIG0 THEN
+  {{
+   LogMessage(GetFbVar(LEVEL),(char*)GetFbVar(MSG, .body),GetFbVar(MSG, .len));
+  }}
+  END_IF;
+  TRIG0:=TRIG;
+END_FUNCTION_BLOCK
+
+
 PROGRAM program0
   VAR
     sensor AT %IW0 : UINT;
@@ -13,8 +36,6 @@ PROGRAM program0
     alto : BOOL := 0;
     superior : BOOL := 0;
     verificar : BOOL := 0;
-    compara : BOOL := 0;
-    divide : BOOL := 0;
     timer_corrido : BOOL := 0;
     probar : BOOL := 0;
     acumular : BOOL := 0;
@@ -134,8 +155,7 @@ PROGRAM program0
   IF _TMP_DIV39_ENO THEN
       acumulador := _TMP_DIV39_OUT;
   END_IF;
-  divide := _TMP_DIV39_ENO;
-  compara := _TMP_LT17_ENO;
+  timer2 := TON4.Q;
 END_PROGRAM
 
 

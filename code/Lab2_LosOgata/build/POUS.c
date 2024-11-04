@@ -275,8 +275,6 @@ void PROGRAM0_init__(PROGRAM0 *data__, BOOL retain) {
   __INIT_VAR(data__->ALTO,0,retain)
   __INIT_VAR(data__->SUPERIOR,0,retain)
   __INIT_VAR(data__->VERIFICAR,0,retain)
-  __INIT_VAR(data__->COMPARA,0,retain)
-  __INIT_VAR(data__->DIVIDE,0,retain)
   __INIT_VAR(data__->TIMER_CORRIDO,0,retain)
   __INIT_VAR(data__->PROBAR,0,retain)
   __INIT_VAR(data__->ACUMULAR,0,retain)
@@ -490,8 +488,7 @@ void PROGRAM0_body__(PROGRAM0 *data__) {
   if (__GET_VAR(data__->_TMP_DIV39_ENO,)) {
     __SET_VAR(data__->,ACUMULADOR,,__GET_VAR(data__->_TMP_DIV39_OUT,));
   };
-  __SET_VAR(data__->,DIVIDE,,__GET_VAR(data__->_TMP_DIV39_ENO,));
-  __SET_VAR(data__->,COMPARA,,__GET_VAR(data__->_TMP_LT17_ENO,));
+  __SET_VAR(data__->,TIMER2,,__GET_VAR(data__->TON4.Q,));
 
   goto __end;
 
